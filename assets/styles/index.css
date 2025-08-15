@@ -118,7 +118,19 @@ li:hover {
 }
 
 #contato a:hover {
-    background-color: rgb(164, 227, 100);
+    background-color: rgb(164, 228, 100);
     color: white;
     transform: translateY(-2px);
+}
+
+footer {
+    background-color: rgb(0, 128, 75);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
 }
