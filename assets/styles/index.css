@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
 /* RESET DO CSS */
 *{
     margin: 0;
@@ -6,7 +8,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: MedievalSharp ,Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -50,10 +52,10 @@ main {
 #meus-hobbies {
     background-color: white;
     width: 80%;
-    margin-bottom: 16px;
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
+    margin-bottom: 16px;
 }
 
 #titulo-meus-hobbies {
@@ -81,4 +83,42 @@ li:hover {
     background-color: rgb(164, 228, 100);
     transform: translateX(5px);
     transition: all 0.3s ease;
+}
+
+#contato {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+#contato h3 {
+    margin-bottom: 8px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#contato p {
+    text-align: center;
+    font-size: 22px;
+}
+
+#contato a {
+    color: rgb(209, 209, 51);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: 2px solid rgb(209, 209, 51);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+#contato a:hover {
+    background-color: rgb(164, 228, 100);
+    color: white;
+    transform: translateY(-2px);
 }
