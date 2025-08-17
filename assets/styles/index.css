@@ -134,3 +134,100 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    main {
+        padding: 48px 30px;
+    }
+
+    about-section, hobbies, contact {
+        width: 90%;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 40px;
+    }
+
+    about-section, hobbies, contact {
+        width: 90%;
+        padding: 25px;
+    }
+
+    ul {
+        flex-direction: column; /* Organiza os itens em coluna */
+    }
+
+    li {
+        min-width: 100%; /* Ocupa toda a largura disponível */
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 30px;
+    }
+
+    #titulo-sobre-mim, #titulo-hobbies {
+        font-size: 32px;
+    }
+
+    .texto-sobre-mim {
+        font-size: 20px;
+    }
+
+    contact h2 {
+        font-size: 26px;
+    }
+
+    contact p {
+        font-size: 18px;
+    }
+
+    contact a {
+        padding: 0.3rem 0.8rem;
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 20px;
+    }
+
+    #titulo-sobre-mim, #titulo-hobbies {
+        font-size: 28px;
+    }
+
+    .texto-sobre-mim {
+        font-size: 18px;
+    }
+
+    contact h2 {
+        font-size: 22px;
+    }
+
+    contact p {
+        font-size: 16px;
+    }
+
+    contact a {
+        padding: 0.3rem 0.7rem;
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+    }
+}
